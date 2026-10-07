@@ -1,0 +1,13 @@
+{
+  "name": "fastapi-security",
+  "version": "0.1.0",
+  "description": "Read-only security audit of FastAPI codebases: route-by-route auth inventory, pattern scan, triage procedure and report template.",
+  "author": {
+    "name": "Abderrahmane Yacoubi",
+    "url": "https://github.com/AbderY"
+  },
+  "homepage": "https://github.com/AbderY/fastapi-security-audit",
+  "repository": "https://github.com/AbderY/fastapi-security-audit",
+  "license": "MIT",
+  "keywords": ["fastapi", "security", "audit", "authorization", "owasp"]
+}

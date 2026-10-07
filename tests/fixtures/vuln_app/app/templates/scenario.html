@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<body>
+  <h1>{{ title }}</h1>
+  <div class="bio">{{ bio|safe }}</div>
+  <script>
+    const scenario = {{ scenario_json | safe }};
+    const owner = {{ owner_name }};
+    const label = "{{ t('scenario.label') }}";
+    const items = {{ items|tojson }};
+    const sep = {{ ',' if not loop.last }};
+  </script>
+</body>
+</html>
